@@ -1,0 +1,28 @@
+{
+    "name": "siddiquinoor/composer-test",
+    "description": "Create a composer package and publish",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Siddiquinoor\\ComposerTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Siddiqui Noor"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "extra": {
+        "laravel": {
+        "providers": [
+            "RandomPassword\\PasswordServiceProvider"
+            ]
+        }
+    }
+}
